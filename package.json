@@ -1,11 +1,23 @@
 {
   "name": "nest-stoplight",
-  "version": "1.0.0",
-  "description": "Bring Stoplight Elements using Swagger OpenAPI docs to NestJS!\n\n",
+  "version": "1.0.3",
+  "description": "Bring Stoplight Elements using Swagger OpenAPI docs to NestJS!",
   "author": "jannis6023",
   "license": "UNLICENSED",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
+  "repository": {
+    "url": "git+https://github.com/jannis6023/nest-swagger-stoplight.git",
+    "type": "git"
+  },
+  "keywords": [
+    "nestjs",
+    "swagger",
+    "stoplight",
+    "openapi",
+    "nest",
+    "documentation"
+  ],
   "scripts": {
     "build:package": "tsc && cp -r ./src/views dist/views"
   },
@@ -13,13 +25,10 @@
     "handlebars": "^4.7.8"
   },
   "peerDependencies": {
-    "@nestjs/common": "^11.0.1",
-    "@nestjs/core": "^11.0.1",
-    "@nestjs/platform-express": "^11.0.1",
-    "@nestjs/swagger": "^11.2.0",
-    "handlebars": "^4.7.8",
-    "reflect-metadata": "^0.2.2",
-    "rxjs": "^7.8.1"
+    "@nestjs/common": "^10.0.0 || ^11.0.0",
+    "@nestjs/platform-express": "^10.0.0 || ^11.0.0",
+    "@nestjs/swagger": "^10.0.0 || ^11.0.0 || ^8.0.0",
+    "handlebars": "^4.7.8"
   },
   "devDependencies": {
     "@nestjs/common": "^11.0.1",
@@ -53,5 +62,9 @@
     "tsconfig-paths": "^4.2.0",
     "typescript": "^5.7.3",
     "typescript-eslint": "^8.20.0"
-  }
+  },
+  "files": [
+    "dist",
+    "src"
+  ]
 }
