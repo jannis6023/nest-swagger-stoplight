@@ -75,10 +75,6 @@ export class StoplightElementsModule {
     );
   }
 
-  private static getGlobalPrefix(app: any) {
-    return app.config?.getGlobalPrefix() ?? '';
-  }
-
   private static prefixSlug(path: string) {
     return path?.[0] !== '/' ? `/${path}` : path;
   }
