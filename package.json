@@ -1,9 +1,8 @@
 {
-  "name": "example",
-  "version": "0.0.1",
-  "description": "",
-  "author": "",
-  "private": true,
+  "name": "nest-stoplight",
+  "version": "1.0.0",
+  "description": "Bring Stoplight Elements using Swagger OpenAPI docs to NestJS!\n\n",
+  "author": "jannis6023",
   "license": "UNLICENSED",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
