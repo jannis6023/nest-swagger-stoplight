@@ -28,8 +28,7 @@ export interface StoplightElementsOptions {
   router?: 'hash' | 'memory';
 }
 
-export interface StoplightElementsModuleOptions
-  extends StoplightElementsOptions {
+export interface StoplightElementsModuleOptions extends StoplightElementsOptions {
   stoplightJSUrl?: string;
   stoplightCSSUrl?: string;
   favicon?: string;
